@@ -9,7 +9,7 @@ p{
   
 }
 h1{
-    border: 5px solid brown;
+   
     display: inline-block;
     width: 90ch;
 
@@ -17,8 +17,8 @@ h1{
 }
 .contact{
     display: flex;
-    justify-content:space-between;
-    border: 5px solid black;
+    justify-content:space-evenly;
+    
 }
 .para{
     
@@ -26,10 +26,15 @@ h1{
 }
 img{
     margin-left: 10px;
-    border: 5px solid brown;
+    
 }
-.para2
-{
-    border: 5px solid brown;
 
+
+.contact1{
+    width:100%;
+}
+button{
+    margin-left:1400px;
+   margin-top: -30px;
+    margin-bottom: 20px;
 }
