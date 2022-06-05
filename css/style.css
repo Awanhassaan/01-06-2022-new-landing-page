@@ -9,7 +9,7 @@ body{
       /*flex hamesha tag k start/parent ko pakrega aur uske andar k eontent ko change krega jese ul ka flex li 
     ko change krega aur nav ka flex nav k andar div aur uske bad ul ko change krega ,ul k andar li ko nahi.*/
 }
-li{
+button{
     list-style:none;/* defines the start of list it can be bullet,nothing,square anything*/
     font-size: large;
     font-weight: bolder;
@@ -49,9 +49,13 @@ h1{
     color: antiquewhite;
 }
 .gal{
+    display: flex;
     margin-top: 300px;
     justify-content: baseline;
 }
 .h1des{
     margin-top: -20px;
+}
+li{
+    margin-left: -20px;
 }

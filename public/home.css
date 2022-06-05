@@ -1,0 +1,25 @@
+.cont{
+    margin-top:100px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item1{
+    background-image: url(../assets/ws1.jpg);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.item2{
+    background-image: url(../assets/ws2.png);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.p1{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 100px;
+}
