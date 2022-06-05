@@ -1,0 +1,57 @@
+body{
+    background-color:white;
+    background-image: url(../assets/pakistan-stage.jpg);
+    
+}
+.nav1{
+    display: inline-block; 
+    
+      /*flex hamesha tag k start/parent ko pakrega aur uske andar k eontent ko change krega jese ul ka flex li 
+    ko change krega aur nav ka flex nav k andar div aur uske bad ul ko change krega ,ul k andar li ko nahi.*/
+}
+li{
+    list-style:none;/* defines the start of list it can be bullet,nothing,square anything*/
+    font-size: large;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: crimson;
+}
+
+
+ul{
+    display: flex;                 /* margin ya padding se ul and .logo dono change ho rhe hn kynke nav flex kya hua aur dono is se 
+                                       link hn*/
+    margin-top: -65px;
+    margin-left: 500px;
+    justify-content: space-around;
+    
+    
+    margin-right: 50px;
+    padding: 20px;
+   
+    
+    
+}
+.logo{
+  
+    width: 150px;
+    margin-top: 10px;
+    display: inline-block; 
+    margin-left: 50px;
+}
+.logoimg{
+    height: 100px;
+    width: 120px;
+}
+h1{
+    margin-left: 50px;
+    color: antiquewhite;
+}
+.gal{
+    margin-top: 300px;
+    justify-content: baseline;
+}
+.h1des{
+    margin-top: -20px;
+}

@@ -1,0 +1,17 @@
+p{
+    
+  text-align: end;
+  
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 30px;
+  
+}
+h1{
+    background-color: aqua;
+    display: inline-block;
+    width: 90ch;
+
+    
+}
